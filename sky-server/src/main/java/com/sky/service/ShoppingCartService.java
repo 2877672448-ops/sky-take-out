@@ -10,4 +10,6 @@ public interface ShoppingCartService {
 
     List<ShoppingCart> listShoppingCart();
 
+    void cleanShoppingCart();
+
 }
