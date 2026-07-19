@@ -1,0 +1,24 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      database: 0
+
+
+sky:
+  wechat:
+    appid: wxbc59b5fe78542430   # 小程序的appid
+    secret: c1580209a8d41c205428c02beb0dea5c   # 小程序的秘钥
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+  alioss:
+    endpoint: cn-beijing
+    access-key-id: your-access-key-id
+    access-key-secret: your-access-key-secret
+    bucket-name: java-cqwm-00
